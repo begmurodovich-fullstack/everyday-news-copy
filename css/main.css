@@ -74,6 +74,228 @@ nav {
   color: #fff;
 }
 
+/* main > left__sidebar */
+main {
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.main-section {
+  overflow-y: scroll;
+  height: 100vh;
+  scrollbar-width: none;
+}
+.theme-section,
+.comments-section {
+  margin-top: 20px;
+  width: 780px;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.theme-section-card {
+  margin-top: 25px;
+  padding-right: 50px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.theme-section-card h4 {
+  margin-top: 5px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.theme-section-card img {
+  width: 140px;
+  border-radius: 10px;
+}
+
+
+.comments-section{
+  margin-bottom: 100px;
+}
+#comment {
+  margin-top: 20px;
+  width: 725px;
+  padding: 20px;
+  outline: none;
+  border-radius: 15px;
+  border: 1px solid #808080;
+}
+.user__comment{
+
+  margin-top: 50px;
+}
+
+.user__comment h4 {
+  font-weight: 400;
+
+}
+.user__profile{
+  margin-bottom: 10px;
+}
+.user__profile p {
+  color: #808080;
+}
+.user__profile h4 {
+  font-weight: 500;
+}
+.user__profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user__profile i {
+  font-size: 30px;
+}
+
+.comment-action
+{
+  display: flex;align-items: center;justify-content: space-between;
+}
+.comment-action p{
+color: #808080;
+}
+.comment-action span{
+  position: relative;
+  bottom: 3px;
+  font-size: 25px;
+}
+.comment-icon{
+  display: flex;align-items: center;gap: 10px;
+}
+.comment-icon i{
+font-size: 20px;
+
+}
+
+  /* main left__sidebar */
+.left__sidebar {
+  overflow-x: scroll;
+  scrollbar-width: none;
+  height: 100vh;
+  width: 250px;
+  margin-left: 70px;
+}
+
+.currency__title,
+.discussed__title,
+.in__world-title,
+.famous__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.currency {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px;
+}
+.currency_card h5 {
+  font-weight: 400;
+}
+.currency_card h5:nth-child(2) {
+  margin: 7px 0;
+}
+.currency_card span {
+  color: red;
+}
+.currency_card p {
+  margin-top: 5px;
+  color: #808080;
+}
+.bold_vr {
+  height: 20px;
+  width: 5px;
+  background: #000;
+}
+
+.discussed {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+.discussed_card {
+  margin-bottom: 25px;
+}
+.discussed_card p {
+  font-weight: 350;
+}
+.discussed_card_icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.discussed_card_icon p {
+  color: #808080;
+  margin-top: 8px;
+}
+.chat {
+  font-size: 13px;
+}
+/* main > right__section */
+.right__sidebar {
+  margin-right: 70px;
+  width: 320px;
+  height: 100vh;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.famous {
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.famous-card-content {
+  display: flex;
+  align-items: start;
+}
+.famous_card {
+  margin-bottom: 25px;
+}
+.famous_card img {
+  width: 80px;
+  margin-left: 5px;
+}
+.famous_card p {
+  font-weight: 350;
+}
+.famous_card_icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.famous_card_icon p {
+  color: #808080;
+  margin-top: 8px;
+}
+.world-news-card {
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.in__world {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+}
+.world-news-card h4 {
+  font-weight: 400;
+  line-height: 25px;
+}
+.world-news-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
 /* main > main-section */
 .main-content {
   width: 780px;
@@ -121,14 +343,13 @@ nav {
   color: blue;
   background-color: #e8eefb;
 }
-.shareIco{
-    padding: 5px;
-    transition: all 0.25s ease;
-    border-radius: 5px;
+.shareIco {
+  padding: 5px;
+  transition: all 0.25s ease;
+  border-radius: 5px;
 }
-.shareIco:hover{
-    background-color: #808080;
-
+.shareIco:hover {
+  background-color: #808080;
 }
 .user {
   margin-top: 20px;
@@ -149,8 +370,8 @@ nav {
   font-weight: 700;
   transition: all 0.2s ease;
 }
-.username:hover{
-    color:blue;
+.username:hover {
+  color: blue;
 }
 
 /* footer */
