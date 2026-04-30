@@ -221,6 +221,8 @@ font-size: 20px;
 }
 .discussed_card {
   margin-bottom: 25px;
+    padding-bottom: 20px;
+  border-bottom: 1px solid #b3b3b3;
 }
 .discussed_card p {
   font-weight: 350;
@@ -257,6 +259,8 @@ font-size: 20px;
 }
 .famous_card {
   margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b3b3b3;
 }
 .famous_card img {
   width: 80px;
@@ -279,6 +283,8 @@ font-size: 20px;
   display: flex;
   align-items: start;
   gap: 10px;
+    padding-bottom: 20px;
+  border-bottom: 1px solid #cdcdcd;
 }
 .in__world {
   margin-top: 20px;
